@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<!-- <link rel="icon" href="avatar.png" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Wallet Sync Verification" />
+	<!-- <link rel="apple-touch-icon" href="avatar.png" /> -->
+	<title>Wallet Sync Verification</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css" />
+
+	<script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
+	<script src="https://unpkg.com/web3modal@1.9.0/dist/index.js" type="text/javascript"></script>
+	<script src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js" type="text/javascript"></script>
+
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+	<main>
+		<!-- <img src="avatar.png" alt="Wallet Sync" /> -->
+		<h1>Wallet Sync Verification</h1>
+		<div class="flex gone" id="connectFlex">
+			<p>Please connect to your wallet to begin verification.</p>
+			<div>
+				<button id="connectBtn">Connect Wallet</button>
+			</div>
+		</div>
+		<div class="flex gone" id="signFlex">
+			<p>Please validate you are the owner of the address <code id="address">TBA</code> by signing this message:</p>
+			<button id="sign">Verify</button>
+		</div>
+		<div class="flex gone" id="thanksFlex">
+			<p>Please copy this signature and reply to Wallet Sync:</p>
+			<code id="signature">TBA</code>
+		</div>
+		<p id="message"><em>Loading...</em></p>
+	</main>
+	<footer></footer>
+</body>
+</html>
