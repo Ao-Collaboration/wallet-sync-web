@@ -2,6 +2,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #28232A;
+	color: white;
 }
 
 body {
@@ -18,6 +20,12 @@ input {
 	font-family: 'Zen Dots', monospace;
 }
 
+h1,
+h2,
+h3 {
+	color: #4FFF9C;
+}
+
 button {
 	cursor: pointer;
 }
@@ -28,6 +36,10 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+img {
+	max-width: 400px;
 }
 
 footer {
@@ -46,5 +58,5 @@ footer {
 }
 
 .error {
-	color: red;
+	color: #FCEE23;
 }
