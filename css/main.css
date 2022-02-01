@@ -17,7 +17,7 @@ body,
 button,
 input {
 	/* Intentionally don't style the code blocks */
-	font-family: 'Zen Dots', monospace;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 h1,
@@ -39,7 +39,7 @@ main {
 }
 
 img {
-	max-width: 400px;
+	max-width: 350px;
 }
 
 footer {
